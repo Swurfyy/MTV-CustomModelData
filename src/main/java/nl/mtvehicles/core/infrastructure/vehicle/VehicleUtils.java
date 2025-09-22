@@ -92,7 +92,7 @@ public final class VehicleUtils {
             standRotors.setVisible(false);
 
             if ((boolean) ConfigModule.defaultConfig.get(DefaultConfig.Option.HELICOPTER_BLADES_ALWAYS_ON)) {
-                ItemStack rotor = (new ItemFactory(Material.getMaterial("DIAMOND_HOE"))).setDurability((short) 1058).setName(TextUtils.colorize("&6Wieken")).setNBT("mtvehicles.kenteken", licensePlate).toItemStack();
+                ItemStack rotor = (new ItemFactory(Material.getMaterial("DIAMOND_HOE"))).setDurability((short) 10047).setName(TextUtils.colorize("&6Wieken")).setNBT("mtvehicles.kenteken", licensePlate).toItemStack();
                 ItemMeta itemMeta = rotor.getItemMeta();
                 List<String> lore = new ArrayList<>();
                 lore.add(TextUtils.colorize("&a"));
